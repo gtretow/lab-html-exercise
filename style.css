@@ -98,8 +98,17 @@ html, body {
    padding-right: 10px;
    position: relative;
    width: 40%;
+   
   
     
+  }
+
+  #barsize {
+
+    width: 40%;
+  margin: 18px auto 0 auto;
+  font-size: 1.5em;
+  text-align: center;
   }
 
   #sbutton {
@@ -242,3 +251,81 @@ margin
     line-height: 15px;
 
   }
+
+  #section3redletter{
+
+    color: #ED1C24;
+    font-size:20px;
+
+       
+
+
+  }
+
+
+  .section3paragraph{
+
+    font-size: 13px;
+    
+    
+
+
+  }
+
+  .section3img{
+
+    width: 20px;
+    margin-right: 1rem;
+    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: stretch;
+
+  }
+ 
+
+
+  .section3 {
+ align: center;
+position: relative;
+    
+  }
+
+ 
+
+
+  #createanorg{
+
+
+    text-align: center;
+    
+    color:white;
+    
+    background-color: black;
+  
+   text-decoration: none;
+    box-sizing: border-box;
+    font-size: 15px;
+  letter-spacing: 0.5px;
+   padding: 10px 20px;
+  box-sizing: border-box;
+    margin-right: 30px;
+    list-style-type: none;
+    
+  box-shadow: 10px 12px 10px #e1caca ;
+    
+      
+
+  }
+
+  #removedot{
+
+    list-style-type: none;
+
+
+  }
+
+  
