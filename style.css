@@ -84,8 +84,8 @@ html, body {
 
   #logo {
 
-    width: 20px;
-    height: 15px;
+    width: 25px;
+    height: 20px;
     position: relative;
     margin-top: auto;
     margin-bottom: px;
@@ -94,7 +94,95 @@ html, body {
 
   #searchbarbutton {
 
-   padding-right: 900px;
-   margin-left: 10px;
-   margin-right: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   position: relative;
+   width: 40%;
+  
+    
+  }
+
+  #sbutton {
+
+    background-color: #fb3e44;
+    color: white;
+    
+
+
+  }
+
+  .colorbuttonlabel {
+
+    color: rgba(0,0,0,.05);
+    
+  }
+  .searchbarbuttonvalue {
+
+    
+    color:rgba(0,0,0,.05);
+  }
+
+  .section1 {
+
+    display: flex;
+    justify-content:center;
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+
+  }
+
+  #bigtxt {
+
+    font-size: 80px;
+    
+  }
+
+  #article1 {
+    padding-bottom: 20px;
+    line-height: 15px;
+    font-size: 15px;
+  font-weight: 100;
+  text-align: center;
+  margin: 20px 0;
+
+  }
+
+  #seeplans {
+
+    background-color: #FB3B49;
+    color: white;
+    font-size: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  box-shadow: 10px 12px 10px #e0bbb8 ;
+  margin-right: 30px;
+  
+
+
+  }
+
+  #listadebtts{
+
+    list-style-type: none;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+    align-content: stretch;
+    
+
+  }
+
+  #join4free {
+
+   color: black;
+   font-size: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+
   }
