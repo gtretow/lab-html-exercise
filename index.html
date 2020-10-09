@@ -1,83 +1,102 @@
 <!DOCTYPE html>
+<!-- 
+    form label color: rgba(0,0,0,.05)
+    form input color: rgba(0,0,0,.05)
+    form button background color: #fb3e44
+    form button letters color: white
+-->
+
+
 <html>
 <header>
     <link rel="stylesheet" href="style.css">
-    
-    <section id="sections"> 
+
+    <div class="logo">
+        <img id="logo" src="images/npm-logo.png" alt="logo"/>
+        <label for="text" id="searchbar" placeholder="search">  </label> <input id="searchbarbutton" type="text" id="searchbar">
+        <button type="submit">search</button> 
+           <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
+       
+              <img id="logo" src="images/magnifying-glass.png" alt="magnifying-glass"/> </div>
+
+
+        </section>
+        <div>
+          <div>
+            <img class="blackHeart" src="images/black-heart.png" alt="black heart" />
+            <span> Nifty Penguin Magic </span>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#"> npm Enterprise </a></li>
+              <li><a href="#"> Products </a></li>
+              <li><a href="#"> Solutions </a></li>
+              <li><a href="#"> Resources </a></li>
+              <li><a href="#"> Docs </a></li>
+              <li><a href="#"> Support </a></li>
+            </ul>
+          </nav>
+        </div>
+
+    <section id="sections" class="section1"> 
               <h1>Build amazing things</h1>
                   <article>Essential JavaScript development tools that help you go to market faster and build powerful applications using modem open source code</article>
 
-                  <div> <ul> <li> <a href="#"></a> See Plans </li>
-                    <li> <a href="#"></a> Join for free</li>
+                  <div> <ul> <li id="seeplans"> <a href="#"></a> See Plans </li>
+                    <li id="join4free"> <a href="#"></a> Join for free</li>
 
 
 
                   </ul></div>
-
-
-                  <section id="sections">
-                      <img class="triangle-hexagon" src="images/triangle-hexagon.svg" alt="triangle-hexagon icon"/>
-                      <h3>Bring the best of open source to your company</h3>
-                      <article>iaculis nunc sed augue lacus viverra vitae congue eu consequat ac felis donec et odio pellentesque 
-                          diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate</article>
                 
-                </section>
-
-                    <section class="section3img"> 
-                        <img class="click" src="images/zero-configuration.svg" alt="zero config icon"/>
-                        <h4 class="section3redletter">Zero configuration</h4> <p class="section3paragraph">eget mi proin sed libero enim sed faucibus turpis in</p>
-
-                        <img class="section3img" src="images/team-management.svg" alt="team management icon"/>
-                        <h4 class="section3redletter">Team management</h4> <p class="section3paragraph">eget mi proin sed libero enim sed faucibus turpis in</p>
-
-                        <img class="section3img" src="images/familiar-features.svg" alt="familiar features icon"/>
-                        <h4 class="section3redletter">Familiar features</h4> <p class="section3paragraph">eget mi proin sed libero enim sed faucibus turpis in</p>
-
-                        <img class="section3img" src="images/npm-audit.svg" alt="npm audit icon"/>
-                        <h4 class="section3redletter">npm audit</h4> <p class="section3paragraph">eget mi proin sed libero enim sed faucibus turpis in</p>
-
-
-                        <ul> <li> <a href="#"></a> Create an Org </li>
-                            </ul>
-
-                        
+                                          
                     
                     
                     </section>
+
+                    <section id="sections2" class="section2">
+                        <img class="triangle-hexagon" src="images/triangle-hexagon.svg" alt="triangle-hexagon icon"/>
+                        <h3>Bring the best of open source to your company</h3>
+                        <article>iaculis nunc sed augue lacus viverra vitae congue eu consequat ac felis donec et odio pellentesque 
+                            diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate</article>
+                  
+                  </section>
     
     
     
     </section>
-    <div>
-      <div>
-        <img class="blackHeart" src="images/black-heart.png" alt="black heart" />
-        <span> Nifty Penguin Magic </span>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#"> npm Enterprise </a></li>
-          <li><a href="#"> Products </a></li>
-          <li><a href="#"> Solutions </a></li>
-          <li><a href="#"> Resources </a></li>
-          <li><a href="#"> Docs </a></li>
-          <li><a href="#"> Support </a></li>
-        </ul>
-      </nav>
-    </div>
-  
-    <div>
+      
+    <div class="logo">
      <img class="logo" src="images/npm-logo.png" alt="logo"/>
      <label for="text" id="searchbar" placeholder="search">  </label> <input type="text" id="searchbar">
      <button type="submit">search</button> 
         <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
     
         <img class="npmimg" src="images/npm-logo.png" alt="npm logo"/>
-        <img class="Searchsymbol" src="images/magnifying-glass.png" alt="magnifying-glass"/>
+        <img class="Searchsymbol" src="images/magnifying-glass.png" alt="magnifying-glass"/> </div>
+
+
+        <section id="section3" class="section3img section3"> 
+            <img class="click" src="images/zero-configuration.svg" alt="zero config icon"/>
+            <h4 class="section3redletter">Zero configuration</h4> <p class="section3paragraph">eget mi proin sed libero enim sed faucibus turpis in</p>
+
+            <img class="section3img" src="images/team-management.svg" alt="team management icon"/>
+            <h4 class="section3redletter">Team management</h4> <p class="section3paragraph">eget mi proin sed libero enim sed faucibus turpis in</p>
+
+            <img class="section3img" src="images/familiar-features.svg" alt="familiar features icon"/>
+            <h4 class="section3redletter">Familiar features</h4> <p class="section3paragraph">eget mi proin sed libero enim sed faucibus turpis in</p>
+
+            <img class="section3img" src="images/npm-audit.svg" alt="npm audit icon"/>
+            <h4 class="section3redletter">npm audit</h4> <p class="section3paragraph">eget mi proin sed libero enim sed faucibus turpis in</p>
+
+
+            <ul> <li> <a href="#"></a> Create an Org </li>
+                </ul>
 
 
 
 
-    </div>
+    
   </header>
 
   </html>
