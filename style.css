@@ -238,6 +238,8 @@ html, body {
     font-style: italic;
 text-align: center;
 font-size: 30px;
+    
+   
 
 
 
@@ -246,10 +248,11 @@ font-size: 30px;
   #spancolor {
 
     background-color: rgba(255,204,53,.4);
-    ;
+    
     transform:skew (9deg,0deg);
     width: 10px;
-margin
+    
+    
     
 
   }
