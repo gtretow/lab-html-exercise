@@ -77,18 +77,19 @@ html, body {
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 	align-items: baseline;
-	align-content: stretch;
+    align-content: stretch;
+    
 
 
   }
 
   #logo {
 
-    width: 25px;
-    height: 20px;
+    width: 35px;
+    height: 30px;
     position: relative;
     margin-top: auto;
-    margin-bottom: px;
+    
 
   }
 
@@ -99,22 +100,32 @@ html, body {
    position: relative;
    width: 40%;
    
+   
+   
+   
   
     
   }
 
   #barsize {
-
-    width: 40%;
-  margin: 18px auto 0 auto;
+      
+    
+    box-sizing: border-box;
+  margin: 0px auto 0 auto;
   font-size: 1.5em;
-  text-align: center;
+  padding-right: 60px;
+  width: 90%;
+  background-color: #dddddd;
+  border: none;
+
   }
 
   #sbutton {
 
     background-color: #fb3e44;
     color: white;
+    height: 30px;
+    margin-top: auto;
     
 
 
