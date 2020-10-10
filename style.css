@@ -256,7 +256,10 @@ margin
 
     color: #ED1C24;
     font-size:20px;
-
+    padding-right: 100px;
+    padding-left: 40px;
+    position: relative;
+    margin-left: 90px;
        
 
 
@@ -266,6 +269,8 @@ margin
   .section3paragraph{
 
     font-size: 13px;
+    position: relative;
+    
     
     
 
@@ -276,26 +281,52 @@ margin
 
     width: 20px;
     margin-right: 1rem;
-    
+    margin-left: 50px;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: baseline;
-	align-content: stretch;
+    align-content: stretch;
+  
+    
 
   }
  
 
 
   .section3 {
- align: center;
-position: relative;
+
+    align: center;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: stretch;
+    
+    
+    
+   
+
     
   }
 
- 
+  #sec3format {
 
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: stretch;
+    
+
+    
+    
+
+  }
+  
 
   #createanorg{
 
@@ -315,6 +346,8 @@ position: relative;
     margin-right: 30px;
     list-style-type: none;
     
+
+     margin-left: 850px;
   box-shadow: 10px 12px 10px #e1caca ;
     
       
